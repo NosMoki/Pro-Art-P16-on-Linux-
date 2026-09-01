@@ -105,13 +105,21 @@ Source: https://github.com/asus-linux-drivers/asus-dialpad-driver
 ## Update 
 
 ### Asusctl 
+
 ```
 sudo systemctl daemon-reload && sudo systemctl restart asusd
 ```
 
+
 ## Uninstall
 
-### 
+### Asusctl 
+
+```
+sudo systemctl disable --now asusd.service asus-shutdown.service
+sudo make uninstall
+sudo systemctl daemon-reload
+```
 
 ## Bugs 
 
