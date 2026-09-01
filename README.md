@@ -92,6 +92,21 @@ This makes it essayer to switch betwen iGPU and dGPU without using the terminal,
 
 https://extensions.gnome.org/extension/7018/gpu-supergfxctl-switch/
 
+## Testing 
+My recommendation for testing if the install worked is using mincraft, if you have a different method use that. Use the flatpack install of prism launcher
+```
+1234
+```
+Now run this command to force open prism using NVIDIA with this command.
+```
+flatpak run \
+  --env=__NV_PRIME_RENDER_OFFLOAD=1 \
+  --env=__GLX_VENDOR_LIBRARY_NAME=nvidia \
+  --env=__VK_LAYER_NV_optimus=NVIDIA_only \
+  org.prismlauncher.PrismLauncher
+```
+Open a game and press Fn + F3 , check if your gpu is detected in the text that is displayed.
+
 ### Touchpad drivers  
 
 The touch pad is not a pressing issue for most but may as well get the functionality you pay for, I found only one driver for this however it dose have some performance issues by Linux standers but if your coming from the widows drivers by Asus you'll be happy with it. 
@@ -137,12 +152,13 @@ sudo make uninstall
 sudo systemctl daemon-reload
 ```
 
-## Bugs 
+## Bugs and notes
+It seems that you can't force all GPU compute to the dGPU its hybrid and the allocation is not the best so opening a program with environment commands is often needed (see testing for what that will look like). I'm not going to tell you how to feel about it, it saves power but you need to be more comfortable with the command line but that's it. This can be a me issue if it is tell me and I will update this doc.
 
 Here is a list of sources for fixing issues that you might see.
 
-https://gitlab.com/asus-linux/asusctl/-/work_items/555
-https://asus-linux.org/guides/fedora-guide/
+- https://gitlab.com/asus-linux/asusctl/-/work_items/555
+- https://asus-linux.org/guides/fedora-guide/
 
 ## Disclaimer 
 
