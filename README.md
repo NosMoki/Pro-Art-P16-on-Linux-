@@ -102,10 +102,20 @@ $ systemctl reboot
 ```
 Source: https://github.com/asus-linux-drivers/asus-dialpad-driver
 
+## Bugs 
+
+Here is a list of sources for fixing issues that you might see.
+
+https://gitlab.com/asus-linux/asusctl/-/work_items/555
+
 ## Disclaimer 
 
 I am not responsible for anything you do based on my advice, you are responsible to do your own research and to know what your doing to your computer. There is a high chance that this is out dated or wrong by the tine you read this, I have provided sources for that reson, If anything dose go wrong that is on you to solve,. However I do encourage  you to come back with findings and help make this a better source for others. 
 
 This repository is in the public domain do whatever you want with it however, the sources linked have no affiliation with me please check their licensees.
+
+Sincerely, 
+
+-海
 
 
