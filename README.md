@@ -102,6 +102,17 @@ $ systemctl reboot
 ```
 Source: https://github.com/asus-linux-drivers/asus-dialpad-driver
 
+## Update 
+
+### Asusctl 
+```
+sudo systemctl daemon-reload && sudo systemctl restart asusd
+```
+
+## Uninstall
+
+### 
+
 ## Bugs 
 
 Here is a list of sources for fixing issues that you might see.
