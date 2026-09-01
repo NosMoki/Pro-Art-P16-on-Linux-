@@ -131,6 +131,7 @@ sudo systemctl daemon-reload
 Here is a list of sources for fixing issues that you might see.
 
 https://gitlab.com/asus-linux/asusctl/-/work_items/555
+https://asus-linux.org/guides/fedora-guide/
 
 ## Disclaimer 
 
