@@ -57,7 +57,18 @@ sudo dnf install supergfxctl
 sudo systemctl start supergfxd.service
 sudo systemctl enable supergfxd.service
 ```
-
+supergfxctl --help
+Optional arguments:
+  -h, --help         print help message
+  -m, --mode         Set graphics mode
+  -v, --version      Get supergfxd version
+  -g, --get          Get the current mode
+  -s, --supported    Get the supported modes
+  -V, --vendor       Get the dGPU vendor name
+  -S, --status       Get the current power status
+  -p, --pend-action  Get the pending user action if any
+  -P, --pend-mode    Get the pending mode change if any
+  
 ### Asusctl 
 Controls other futons needed such as fan curves and power levels.
 ```
