@@ -28,7 +28,7 @@ sudo dnf install akmod-nvidia # rhel/centos users can use kmod-nvidia instead
 ```
 sudo dnf install xorg-x11-drv-nvidia-cuda #optional for cuda/nvdec/nvenc support
 ```
-Wait 30 minutes to allow for the drivers to install correctly (after you see the complete message)
+Wait 30 minutes to allow for the drivers to install correctly (after you see the complete message) or use to identify if it is installed ``` modinfo -F version nvidia ``` 
 
 ```
 systemctl reboot
