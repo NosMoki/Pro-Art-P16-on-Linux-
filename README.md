@@ -92,7 +92,7 @@ This makes it essayer to switch betwen iGPU and dGPU without using the terminal,
 
 https://extensions.gnome.org/extension/7018/gpu-supergfxctl-switch/
 
-## Testing 
+## Testing the GPU
 My recommendation for testing if the install worked is using mincraft, if you have a different method use that. Use the flatpack install of prism launcher
 ```
 1234
@@ -107,7 +107,7 @@ flatpak run \
 ```
 Open a game and press Fn + F3 , check if your gpu is detected in the text that is displayed.
 
-### Touchpad drivers  
+## Touchpad drivers  
 
 The touch pad is not a pressing issue for most but may as well get the functionality you pay for, I found only one driver for this however it dose have some performance issues by Linux standers but if your coming from the widows drivers by Asus you'll be happy with it. 
 
