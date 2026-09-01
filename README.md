@@ -59,7 +59,7 @@ sudo systemctl enable supergfxd.service
 ```
 
 ### Asusctl 
-Controls other futons needed such as fan curves and power levels, there is also a optional GUI control panel you can install it if you want i am not including it as I don't feel it is needed.
+Controls other futons needed such as fan curves and power levels.
 ```
 sudo dnf install asusctl 
 ```
@@ -68,6 +68,11 @@ sudo dnf install asusctl
 sudo systemctl start asusd.service 
 sudo systemctl enable asusd.service
 ```
+The below is the rog control center, just the GUI for the drivers effectively.
+```
+sudo dnf install asusctl-rog-gui
+```
+
 
 Source for Supergfxctl and Asusctl: https://asus-linux.org/
 
