@@ -9,7 +9,7 @@ This is mostly for fedora with gnome (Don't use KDE it is shit) however I have i
 
 ## Before starting 
 
-Update your kernel and all the other updates, I recommend doing this as the first step post install as if you fuck up, it is easy to fix (re-install). You can in theory just copy all the commands in order from this page however please don't, I don't need that pressure and the original documentation goes into far more detail in-case you want something different to my config.
+Update your kernel and all the other updates, turn on third party packages. I recommend doing this as the first step post install as if you fuck up, it is easy to fix (re-install). You can in theory just copy all the commands in order from this page however please don't, I don't need that pressure and the original documentation goes into far more detail in-case you want something different to my config.
 
 ## Nvidia drivers
 
@@ -93,9 +93,9 @@ This makes it essayer to switch betwen iGPU and dGPU without using the terminal,
 https://extensions.gnome.org/extension/7018/gpu-supergfxctl-switch/
 
 ## Testing the GPU
-My recommendation for testing if the install worked is using mincraft, if you have a different method use that. Use the flatpack install of prism launcher
+My recommendation for testing if the install worked is using mincraft, if you have a different method use that. Use the flatpack install of prism launcher. You need to have flat pack installed, if you enabled third party packages on install you should be fine.
 ```
-1234
+flatpak install flathub org.prismlauncher.PrismLauncher
 ```
 Now run this command to force open prism using NVIDIA with this command.
 ```
