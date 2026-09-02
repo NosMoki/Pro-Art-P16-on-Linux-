@@ -5,7 +5,17 @@ Some notes on using the Pro art P16 on Linux, assuming your fine with just using
 
 # Tested distos
 
-This is mostly for fedora with gnome (Don't use KDE it is shit) however I have installed openSUSE and arch to different levels of success. OpenSUSE is mostly the same as fedora however it is not as smooth sailing but if your ok with reading more documentation and diagnosing issues it is mostly the same just more time involved. Arch is very hit or miss it worked but it didn't after a update, programs stoped working, configs reset, resuluton issues etc. Some of my friends that daily arch say that it is mostly me being new to arch and a skill issue not the laptop, so I'll conclude that if your experienced with arch or using a arch based distro you will be fine. Other distros tell me and ill update this repo, same for other laptops make a new .md with your expirance.
+This is mostly for fedora with gnome (Don't use KDE it is shit) however I have installed openSUSE and arch to different levels of success. 
+
+OpenSUSE is mostly the same as fedora however it is not as smooth sailing but if your ok with reading more documentation and diagnosing issues it is mostly the same just more time involved. 
+
+Arch is very hit or miss it worked but it didn't after an update, programs stoped working, configs reset, resuluton issues etc. Some of my friends that daily arch say that it is mostly me being new to arch and a skill issue not the laptop, so I'll conclude that if your experienced with arch or using a arch based distro you will be fine. 
+
+Gentoo works but it’s gentoo so it’s entirely dependent upon you if it works or not.
+
+Debian works however I have not tested drives, just assume the dGPU doesn’t work. 
+
+Other distros tell me and ill update this repo, same for other laptops make a new .md with your expirance.
 
 ## Before starting 
 
@@ -159,6 +169,7 @@ Here is a list of sources for fixing issues that you might see.
 
 - https://gitlab.com/asus-linux/asusctl/-/work_items/555
 - https://asus-linux.org/guides/fedora-guide/
+- https://wiki.gentoo.org/wiki/User:Vokiel/Asus-ProArt-P16-2024
 
 ## Disclaimer 
 
